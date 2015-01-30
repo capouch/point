@@ -25,9 +25,7 @@ public class PointDriver {
 
 	// Print one of the points
 	upperRight.printPoint();
-	// Clear it
-	upperRight.clear();
-	// Print it again
-	upperRight.printPoint();
+	middlePoint.printPoint();
+	System.out.println("The distance between your points is " + upperRight.distance(middlePoint));
 	}
 }
